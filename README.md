@@ -1,2 +1,2 @@
-#QT Design Studio
+# QT Design Studio
 click on file that <project name>.qmlproject
