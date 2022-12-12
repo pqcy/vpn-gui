@@ -14,7 +14,6 @@ menuBar : Item
 
 QML에서 창의 속성, 모양 및 레이아웃을 제어 할 수 있으며 menuBar프로퍼티에 MenuBar 유형의 아이템을 추가할 수 있다.  
 
-./layout.png
+![ApplicationWindow 레이아웃](./layout.png)  
 
-▲ApplicationWindow 레이아웃  
 This type (ApplicationWindow) is not supported as a root element by Qt Design Studio
