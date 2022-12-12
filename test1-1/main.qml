@@ -27,7 +27,7 @@ ApplicationWindow {
     /*************************************************************************************************/
     Text {
         id: pqcvpn
-        y: 35
+        y: 10
         width: 319
         height: 80
         color: "#0c0c0c"
@@ -82,6 +82,26 @@ ApplicationWindow {
             anchors.horizontalCenter: parent.horizontalCenter
             running: image.status === switch1.Loading //수정필요 스위치를 키고 나서 VPN 시작까지 걸리는 시간
         }
+        //vpn 작동 버튼
+        /*Button{
+            id: switch1
+            y: 159
+            width: 250
+            height: 190
+            visible: true
+            anchors.horizontalCenter: parent.horizontalCenter
+            Image {
+
+                anchors.fill: parent
+                source: "images/bob_bi_solid.svg"
+                //fillMode: Image.Tile
+                fillMode: Image.PreserveAspectFit
+            }
+            checkable: true
+            checked: true
+
+        }*/
+
         //vpn 작동 스위치
         Switch {
             id: switch1
