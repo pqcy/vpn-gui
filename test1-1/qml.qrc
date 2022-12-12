@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>images/bob_bi_basic.svg</file>
+        <file>images/quantum.png</file>
+    </qresource>
+</RCC>
