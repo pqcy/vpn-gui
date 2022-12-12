@@ -3,7 +3,8 @@ click on file that < project name >.qmlproject
 
 # Editor - Qt Creator in Linux (ubuntu 22.04 LTS)
 Open Project → *.pro (qmake)  
-  
+
+-----------------------------------------------------------------------------
 ApplicationWindow 는 Window 에서 파생된 형태의 아이템이다. Window에 추가적으로 다음과 같은 프로퍼티들이 추가된다.  
 
 contentItem : Item  
