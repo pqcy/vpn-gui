@@ -18,4 +18,9 @@ QML에서 창의 속성, 모양 및 레이아웃을 제어 할 수 있으며 men
 
 ![ApplicationWindow 레이아웃](./layout.png)  
 
-This type (ApplicationWindow) is not supported as a root element by Qt Design Studio
+This type (ApplicationWindow) is not supported as a root element by Qt Design Studio  
+
+------------------------------------------------
+c++ 코드 연동 reference  
+
+https://www.youtube.com/watch?v=Nma3c3YxsUo&t=154s
