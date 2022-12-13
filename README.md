@@ -23,4 +23,10 @@ This type (ApplicationWindow) is not supported as a root element by Qt Design St
 ------------------------------------------------
 c++ 코드 연동 reference  
 
-https://www.youtube.com/watch?v=Nma3c3YxsUo&t=154s
+https://www.youtube.com/watch?v=Nma3c3YxsUo&t=154s   
+
+----------------------------------------------
+pqcvpn 폴더에서  
+test1.pro 파일 실행  
+test.cpp 에서 경로 및 인자 주기   
+Qt Creator 실행시 Run as root user 체크   
