@@ -1,0 +1,1464 @@
+221216 004424-562 I 3162 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 004424-564 I 3162 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 004424-565 I 3162 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 004424-565 I 3162 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 004424-566 D 3162 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 004424-593 D 3162 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 004424-624 D 3162 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 004424-651 D 3162 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 004424-787 D 3191 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 004424-788 D 3193 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 004424-787 D 3192 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 004425-373 D 3191 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 004447-431 W 3193 [grawipsocketwrite.cpp:90] virtual GPacket::Result GRawIpSocketWrite::write Err : "sendto return -1(허가 거부) buf len=88"  code = -1
+221216 004447-431 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004448-026 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004448-027 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004451-505 I 3338 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 004451-508 I 3338 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 004451-508 I 3338 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 004451-509 I 3338 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 004451-509 D 3338 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 004451-538 D 3338 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 004451-564 D 3338 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 004451-595 D 3338 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 004451-727 D 3397 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 004451-727 D 3398 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 004451-727 D 3396 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 004451-864 W 3398 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 004451-865 D 3398 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 004451-865 D 3338 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 004451-866 D 3397 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 004451-867 D 3338 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 004451-894 D 3338 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 004451-925 I 3338 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 004451-932 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004451-932 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004452-914 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004452-982 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004453-216 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004453-279 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004457-522 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004457-581 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004457-582 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004457-582 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004458-442 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004458-508 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004458-508 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004458-509 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004500-594 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004500-653 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004500-654 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004500-654 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004501-516 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004501-578 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004502-438 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004502-616 I 3471 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 004502-617 I 3471 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 004502-618 I 3471 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 004502-618 I 3471 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 004502-619 D 3471 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 004502-647 D 3471 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 004502-680 D 3471 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 004502-717 D 3471 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 004502-846 D 3547 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 004502-846 D 3549 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 004502-846 D 3548 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 004502-973 W 3549 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 004502-973 D 3549 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 004502-974 D 3471 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 004502-975 D 3548 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 004502-976 D 3471 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 004503-004 D 3471 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 004503-046 I 3471 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 004503-346 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004503-404 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004504-587 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004504-653 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004504-655 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004504-655 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004504-656 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004504-656 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004507-965 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004508-027 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004508-477 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004508-540 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004511-652 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004511-722 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004512-573 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004512-638 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004512-639 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004512-640 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004513-386 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004513-453 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004513-455 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004513-456 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004514-726 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004514-793 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004514-794 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004514-794 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004515-646 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004515-701 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004515-702 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004515-702 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004517-417 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004517-477 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004519-440 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004519-501 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004519-502 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004519-502 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004525-420 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004525-476 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004527-421 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004527-479 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004527-480 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004527-480 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004528-046 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004528-396 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004528-464 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004528-465 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004528-466 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004528-466 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004528-466 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004529-469 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004529-525 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004530-697 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004530-728 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004530-729 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004530-729 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004531-011 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004531-067 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004534-424 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004534-488 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004534-488 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004534-489 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004542-679 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004542-748 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004542-749 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004542-749 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004543-408 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004543-461 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004543-462 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004543-462 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004545-444 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004545-496 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004545-496 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004545-496 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004548-208 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004548-380 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004549-436 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004549-495 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004549-496 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004549-496 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004551-452 I 4149 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 004551-452 I 4149 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 004551-453 I 4149 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 004551-453 I 4149 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 004551-453 D 4149 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 004551-479 D 4149 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 004551-506 D 4149 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 004551-538 D 4149 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 004551-678 D 4231 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 004551-678 D 4233 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 004551-678 D 4232 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 004551-825 W 4233 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 004551-825 D 4233 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 004551-826 D 4149 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 004551-826 D 4232 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 004551-827 D 4149 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 004551-854 D 4149 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 004551-889 I 4149 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 004551-917 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004551-982 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004553-412 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004553-470 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004556-194 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004556-248 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004557-415 I 4304 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 004557-416 I 4304 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 004557-416 I 4304 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 004557-416 I 4304 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 004557-416 D 4304 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 004557-448 D 4304 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 004557-473 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004557-476 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004557-477 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004557-477 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004557-479 D 4304 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 004557-516 D 4304 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 004557-642 D 4383 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 004557-643 D 4384 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 004557-644 D 4385 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 004557-797 W 4385 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 004557-797 D 4385 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 004557-797 D 4304 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 004557-798 D 4384 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 004557-799 D 4304 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 004557-834 D 4304 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 004557-870 I 4304 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 004558-420 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004558-475 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004558-476 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004558-476 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004600-495 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004600-558 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004600-558 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004600-558 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004600-558 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004600-558 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004600-690 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004601-110 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004601-176 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004601-241 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004601-302 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004601-622 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004601-675 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004601-676 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004601-738 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004602-338 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004603-567 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004604-489 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004604-546 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004604-546 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004604-547 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004604-677 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004606-332 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004607-931 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004609-405 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004609-405 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004609-405 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004609-406 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004609-406 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004609-406 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004609-406 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004609-407 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004609-417 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004609-417 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004609-417 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004610-486 W 3192 [gpcapcapture.cpp:46] virtual GPacket::Result GPcapCapture::read Err : "pcap_next_ex return -1 error=The interface disappeared"  code = 10018
+221216 004610-487 D 3192 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 004610-941 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004612-477 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004612-477 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004612-478 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004612-478 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004612-478 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004612-478 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004612-489 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004612-988 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004613-050 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004613-429 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004613-484 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004613-484 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004613-485 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004613-588 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004615-548 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004615-608 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004615-609 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004615-609 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004618-688 I 4506 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 004618-689 I 4506 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 004618-690 I 4506 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 004618-690 I 4506 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 004618-690 D 4506 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 004618-717 D 4506 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 004618-746 D 4506 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 004618-778 D 4506 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 004618-923 D 4536 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 004618-923 D 4538 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 004618-923 D 4537 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 004619-061 W 4538 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 004619-061 D 4538 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 004619-062 D 4506 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 004619-063 D 4537 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 004619-063 D 4506 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 004619-090 D 4506 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 004619-115 I 4506 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 004619-542 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004619-609 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004619-610 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004619-610 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004627-529 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004627-595 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004627-595 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004627-595 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-042 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-247 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-247 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-247 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-248 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-260 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-409 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-466 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-466 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-466 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-467 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-467 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-529 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004628-529 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004630-603 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004630-659 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004630-660 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004630-660 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004630-660 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004630-660 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004633-526 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004634-589 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004634-644 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004634-644 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004634-644 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004634-644 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004634-645 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004642-583 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004642-660 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004642-660 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004642-660 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004643-459 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004643-512 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004643-513 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004643-513 W 3193 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004644-706 W 3162 [vpnclient-test.cpp:49] void signalHandler "signal occured 15"
+221216 004644-706 D 3162 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 004644-707 W 3193 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 004644-707 D 3193 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 004644-754 D 3162 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 004644-780 W 3162 [vpnclient.cpp:94] static void VpnClient::runCommand "run sudo route del -net 175.193.34.28 netmask 255.255.255.255 -1 return %3"
+221216 004644-781 D 3162 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 004644-804 W 3162 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 004644-804 I 3162 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 004658-399 I 4645 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 004658-400 I 4645 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 004658-400 I 4645 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 004658-401 I 4645 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 004658-401 D 4645 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 004658-429 D 4645 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 004658-460 D 4645 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 004658-491 D 4645 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 004658-630 D 4675 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 004658-630 D 4676 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 004658-630 D 4677 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 004658-866 D 4675 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 004728-570 W 4677 [grawipsocketwrite.cpp:90] virtual GPacket::Result GRawIpSocketWrite::write Err : "sendto return -1(허가 거부) buf len=412"  code = -1
+221216 004728-571 W 4677 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004728-571 W 4677 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004750-477 W 4677 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004758-584 W 4677 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004758-585 W 4677 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004828-617 W 4677 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 004828-617 W 4677 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005002-949 I 4894 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 005002-950 I 4894 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 005002-950 I 4894 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 005002-951 I 4894 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 005002-951 D 4894 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 005002-986 D 4894 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 005003-029 D 4894 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 005003-076 D 4894 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 005003-283 D 4958 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 005003-283 D 4957 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 005003-283 D 4956 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 005003-586 D 4956 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 005010-252 W 4958 [grawipsocketwrite.cpp:90] virtual GPacket::Result GRawIpSocketWrite::write Err : "sendto return -1(허가 거부) buf len=78"  code = -1
+221216 005010-252 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005010-306 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005011-070 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005011-132 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005011-786 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005011-851 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005015-638 I 5053 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 005015-639 I 5053 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 005015-639 I 5053 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 005015-640 I 5053 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 005015-641 D 5053 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 005015-672 D 5053 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 005015-704 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005015-704 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005015-704 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005015-704 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005015-705 D 5053 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 005015-752 D 5053 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 005015-898 D 5115 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 005015-899 D 5116 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 005015-899 D 5117 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 005016-044 W 5117 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 005016-044 D 5117 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 005016-045 D 5053 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 005016-046 D 5116 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 005016-046 D 5053 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 005016-074 D 5053 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 005016-110 I 5053 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 005019-775 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005019-839 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005019-839 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005019-839 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005027-627 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005027-686 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005027-687 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005027-687 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005028-070 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005028-682 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005028-726 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005028-726 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005028-727 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005028-727 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005028-738 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005030-645 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005030-713 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005030-714 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005030-714 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005031-406 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005031-464 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005032-267 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005034-416 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005034-487 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005034-547 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005034-652 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005034-717 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005034-717 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005034-717 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005034-928 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005034-995 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005034-996 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005035-144 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005035-209 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005035-285 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005035-387 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005035-448 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005035-449 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005035-506 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005035-749 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005036-158 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005036-874 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005037-386 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005037-443 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005038-512 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005038-820 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005040-358 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005041-396 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005042-631 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005042-696 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005042-696 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005042-696 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005042-916 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005043-735 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005043-789 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005043-790 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005043-790 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005045-681 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005045-741 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005045-742 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005045-742 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005047-421 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005048-036 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005049-879 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005049-944 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005049-944 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005050-919 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005050-974 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005053-258 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005054-999 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005055-060 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005056-432 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005056-492 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005057-866 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005057-936 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005057-937 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005057-937 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005058-788 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005058-788 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005058-789 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005058-789 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005058-789 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005058-803 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005100-655 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005100-712 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005100-712 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005100-712 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005101-553 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005101-616 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005102-475 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005102-532 W 4958 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005926-142 I 6332 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 005926-143 I 6332 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 005926-143 I 6332 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 005926-144 I 6332 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 005926-144 D 6332 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 005926-175 D 6332 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 005926-206 D 6332 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 005926-234 D 6332 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 005926-390 D 6363 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 005926-391 D 6365 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 005926-392 D 6364 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 005926-578 D 6363 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 005929-461 W 6365 [grawipsocketwrite.cpp:90] virtual GPacket::Result GRawIpSocketWrite::write Err : "sendto return -1(허가 거부) buf len=412"  code = -1
+221216 005929-461 W 6365 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 005929-461 W 6365 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 011214-075 I 7145 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 011214-075 I 7145 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 011214-076 I 7145 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 011214-076 I 7145 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 011214-076 D 7145 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 011214-103 D 7145 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 011214-131 D 7145 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 011214-159 D 7145 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 011214-270 D 7176 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 011214-270 D 7177 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 011214-270 D 7178 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 011214-502 D 7176 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 011830-211 I 7571 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 011830-212 I 7571 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 011830-212 I 7571 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 011830-212 I 7571 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 011830-213 D 7571 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 011830-228 D 7571 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 011830-252 D 7571 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 011830-286 D 7571 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 011830-390 D 7602 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 011830-390 D 7603 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 011830-391 D 7604 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 011830-572 D 7602 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 011849-749 I 7751 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 011849-750 I 7751 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 011849-751 I 7751 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 011849-751 I 7751 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 011849-751 D 7751 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 011849-776 D 7751 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 011849-805 D 7751 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 011849-842 D 7751 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 011849-986 D 7814 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 011849-986 D 7815 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 011849-987 D 7816 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 011850-133 W 7816 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 011850-134 D 7816 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 011850-134 D 7751 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 011850-134 D 7815 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 011850-135 D 7751 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 011850-164 D 7751 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 011850-192 I 7751 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 011850-748 W 7604 [grawipsocketwrite.cpp:90] virtual GPacket::Result GRawIpSocketWrite::write Err : "sendto return -1(네트워크가 접근 불가능합니다) buf len=69"  code = -1
+221216 011850-748 W 7604 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 011850-876 W 7604 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 011850-876 W 7604 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 011850-876 W 7604 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 011854-411 W 7604 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 011854-474 W 7604 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 011858-736 W 7604 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 011858-802 W 7604 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 011858-802 W 7604 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 011858-802 W 7604 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 011911-528 I 7940 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 011911-529 I 7940 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 011911-529 I 7940 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 011911-529 I 7940 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 011911-529 D 7940 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 011911-561 D 7940 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 011911-596 D 7940 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 011911-626 D 7940 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 011911-758 D 7970 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 011911-760 D 7971 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 011911-760 D 7973 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 011912-025 D 7970 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 012359-669 I 8321 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 012359-670 I 8321 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 012359-670 I 8321 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 012359-671 I 8321 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 012359-671 D 8321 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 012359-699 D 8321 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 012359-730 D 8321 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 012359-762 D 8321 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 012359-890 D 8352 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 012359-891 D 8354 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 012359-891 D 8353 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 012400-112 D 8352 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 012431-975 I 8536 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 012431-976 I 8536 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 012431-977 I 8536 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 012431-977 I 8536 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 012431-978 D 8536 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 012432-011 D 8536 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 012432-045 D 8536 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 012432-082 D 8536 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 012432-222 D 8566 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 012432-222 D 8567 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 012432-223 D 8568 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 012432-468 D 8566 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 012644-808 I 8825 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 012644-809 I 8825 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 012644-809 I 8825 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 012644-809 I 8825 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 012644-809 D 8825 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 012644-837 D 8825 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 012644-873 D 8825 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 012644-911 D 8825 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 012645-062 D 8855 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 012645-064 D 8856 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 012645-064 D 8857 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 012645-301 D 8855 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 012722-020 I 9056 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 012722-021 I 9056 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 012722-021 I 9056 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 012722-022 I 9056 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 012722-022 D 9056 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 012722-056 D 9056 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 012722-097 D 9056 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 012722-138 D 9056 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 012722-271 D 9086 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 012722-271 D 9087 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 012722-271 D 9088 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 012722-496 D 9086 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 012727-886 W 9088 [grawipsocketwrite.cpp:90] virtual GPacket::Result GRawIpSocketWrite::write Err : "sendto return -1(허가 거부) buf len=88"  code = -1
+221216 012727-886 W 9088 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 012842-508 I 9255 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 012842-509 I 9255 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 012842-509 I 9255 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 012842-509 I 9255 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 012842-510 D 9255 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 012842-538 D 9255 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 012842-576 D 9255 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 012842-611 D 9255 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 012842-749 D 9317 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 012842-750 D 9319 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 012842-750 D 9318 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 012843-025 D 9317 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 013002-303 I 9515 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 013002-304 I 9515 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 013002-304 I 9515 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 013002-305 I 9515 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 013002-305 D 9515 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 013002-335 D 9515 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 013002-360 D 9515 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 013002-389 D 9515 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 013002-522 D 9545 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 013002-522 D 9546 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 013002-522 D 9547 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 013002-774 D 9545 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 014019-208 I 10446 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 014019-209 I 10446 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 014019-210 I 10446 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 014019-210 I 10446 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 014019-211 D 10446 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 014019-241 D 10446 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 014019-271 D 10446 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 014019-298 D 10446 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 014019-423 D 10477 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 014019-423 D 10478 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 014019-423 D 10479 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 014019-660 D 10477 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 014021-757 W 10479 [grawipsocketwrite.cpp:90] virtual GPacket::Result GRawIpSocketWrite::write Err : "sendto return -1(허가 거부) buf len=78"  code = -1
+221216 014021-758 W 10479 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 014021-758 W 10479 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 014022-478 W 10479 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 014022-535 W 10479 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 014023-291 W 10479 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 014023-349 W 10479 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 014455-814 I 11073 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 014455-814 I 11073 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 014455-814 I 11073 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 014455-815 I 11073 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 014455-815 D 11073 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 014455-837 D 11073 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 014455-875 D 11073 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 014455-911 D 11073 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 014456-055 D 11105 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 014456-056 D 11106 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 014456-056 D 11107 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 014456-332 D 11105 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 014526-580 I 11267 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 014526-581 I 11267 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 014526-582 I 11267 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 014526-582 I 11267 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 014526-583 D 11267 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 014526-601 D 11267 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 014526-634 D 11267 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 014526-661 D 11267 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 014526-795 D 11331 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 014526-795 D 11330 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 014526-795 D 11329 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 014527-014 D 11329 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 014949-246 I 11691 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 014949-247 I 11691 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 014949-247 I 11691 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 014949-247 I 11691 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 014949-248 D 11691 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 014949-272 D 11691 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 014949-297 D 11691 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 014949-325 D 11691 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 014949-467 D 11721 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 014949-467 D 11722 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 014949-467 D 11723 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 014949-721 D 11721 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 015120-764 I 11948 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 015120-765 I 11948 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 015120-765 I 11948 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 015120-766 I 11948 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 015120-766 D 11948 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 015120-791 D 11948 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 015120-826 D 11948 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 015120-877 D 11948 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 015121-007 D 12012 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 015121-007 D 12014 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 015121-007 D 12013 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 015121-211 D 12012 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 015122-464 W 12014 [grawipsocketwrite.cpp:90] virtual GPacket::Result GRawIpSocketWrite::write Err : "sendto return -1(허가 거부) buf len=540"  code = -1
+221216 015122-465 W 12014 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 015123-973 W 12014 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 015125-507 W 12014 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 015208-821 I 12164 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 015208-821 I 12164 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 015208-821 I 12164 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 015208-821 I 12164 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 015208-822 D 12164 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 015208-847 D 12164 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 015208-881 D 12164 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 015208-903 D 12164 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 015209-039 D 12194 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 015209-039 D 12195 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 015209-039 D 12196 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 015209-279 D 12194 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 095033-901 I 3487 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 095033-905 I 3487 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 095033-905 I 3487 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 095033-905 I 3487 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 095033-905 D 3487 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 095033-941 D 3487 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 095033-971 D 3487 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 095034-002 D 3487 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 095055-072 W 3487 [tcpclient.cpp:39] virtual bool TcpClient::doOpen Err : "connect return -1 연결이 거부됨"  code = -1
+221216 095055-072 D 3487 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 095055-073 D 3487 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 095055-092 D 3487 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 095055-123 I 3487 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 095139-924 I 3539 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 095139-926 I 3539 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 095139-926 I 3539 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 095139-926 I 3539 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 095139-927 D 3539 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 095139-955 D 3539 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 095139-983 D 3539 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 095140-013 D 3539 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 095201-065 W 3539 [tcpclient.cpp:39] virtual bool TcpClient::doOpen Err : "connect return -1 연결이 거부됨"  code = -1
+221216 095201-065 D 3539 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 095201-066 D 3539 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 095201-093 D 3539 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 095201-122 I 3539 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 095358-726 I 3643 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 095358-727 I 3643 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 095358-727 I 3643 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 095358-727 I 3643 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 095358-728 D 3643 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 095358-757 D 3643 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 095358-788 D 3643 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 095358-809 D 3643 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 095419-874 W 3643 [tcpclient.cpp:39] virtual bool TcpClient::doOpen Err : "connect return -1 연결이 거부됨"  code = -1
+221216 095419-874 D 3643 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 095419-874 D 3643 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 095419-898 D 3643 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 095419-926 I 3643 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 095427-018 I 3691 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 095427-019 I 3691 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 095427-019 I 3691 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 095427-020 I 3691 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 095427-020 D 3691 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 095427-050 D 3691 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 095427-076 D 3691 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:37:f1:7f"
+221216 095427-109 D 3691 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 095431-389 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095431-389 W 3691 [gstateobj.cpp:54] virtual bool GStateObj::close Err : "VpnClient State is 1"  code = 10002
+221216 095431-389 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095435-234 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095435-234 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095441-708 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095441-708 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095442-183 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095442-183 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095442-387 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095442-387 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095442-583 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095442-583 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095442-749 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095442-750 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095442-928 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095442-928 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095443-099 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095443-100 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095443-268 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095443-269 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095443-435 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095443-435 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095443-597 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095443-597 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095443-763 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095443-764 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-264 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-272 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-295 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-295 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-325 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-325 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-357 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-357 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-387 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-387 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-416 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-416 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-446 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-446 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-474 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-474 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-505 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-505 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-535 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-536 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-564 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-564 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-593 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-593 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-627 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-627 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-657 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-657 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-685 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-686 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-715 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-715 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-744 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-744 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-774 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-774 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-805 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-805 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-834 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-834 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-869 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-869 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-898 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-898 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-924 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-925 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-955 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-955 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095444-984 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095444-985 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-014 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-015 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-043 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-044 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-078 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-078 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-105 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-105 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-135 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-135 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-164 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-164 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-193 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-194 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-224 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-224 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-254 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-255 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-284 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-284 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-314 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-314 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-344 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-344 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-374 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-374 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-405 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-405 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-434 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-435 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-466 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-466 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-498 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-498 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-531 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-531 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-554 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-554 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-584 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-584 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-615 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-615 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-643 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-644 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-674 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-674 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-703 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-703 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-735 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-735 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-764 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-765 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-794 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-794 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-830 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-830 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-858 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-858 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-888 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-889 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-916 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-917 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-945 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-946 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095445-974 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095445-974 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-004 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-005 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-039 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-039 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-068 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-068 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-095 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-095 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-127 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-127 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-154 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-155 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-183 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-183 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-213 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-213 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-245 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-245 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-274 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-274 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-303 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-304 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-334 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-335 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-364 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-365 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-393 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-393 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-427 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-427 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-453 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-453 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-483 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-483 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-515 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-515 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-547 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-547 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-585 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-585 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-604 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-605 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-633 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-634 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-665 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-665 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-694 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-695 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-724 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-724 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-752 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-752 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-784 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-784 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-813 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-813 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-844 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-844 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-872 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-873 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-903 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-903 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-934 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-934 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-963 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-964 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095446-998 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095446-998 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095447-023 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095447-024 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095447-053 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095447-053 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095447-086 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095447-086 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095447-117 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095447-117 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095447-147 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095447-147 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095447-176 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095447-176 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095447-204 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095447-205 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095447-234 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095447-234 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095447-265 W 3691 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 095447-265 W 3691 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 095448-185 W 3691 [tcpclient.cpp:39] virtual bool TcpClient::doOpen Err : "connect return -1 연결이 거부됨"  code = -1
+221216 095448-185 D 3691 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 095448-185 D 3691 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 095448-203 D 3691 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 095448-222 I 3691 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 095452-281 I 3732 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 095452-282 I 3732 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 095452-283 I 3732 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 095452-283 I 3732 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 095452-283 D 3732 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 095452-309 D 3732 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 095452-337 D 3732 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:37:f1:7f"
+221216 095452-364 D 3732 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 095513-438 W 3732 [tcpclient.cpp:39] virtual bool TcpClient::doOpen Err : "connect return -1 연결이 거부됨"  code = -1
+221216 095513-438 D 3732 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 095513-438 D 3732 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 095513-467 D 3732 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 095513-488 I 3732 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 113026-500 I 2895 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 113026-503 I 2895 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 113026-503 I 2895 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 113026-503 I 2895 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 113026-504 D 2895 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 113026-539 D 2895 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 113026-565 D 2895 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 113026-596 D 2895 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 113026-738 D 2928 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 113026-738 D 2927 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 113026-739 D 2929 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 113027-075 D 2927 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 113105-025 W 2929 [grawipsocketwrite.cpp:90] virtual GPacket::Result GRawIpSocketWrite::write Err : "sendto return -1(허가 거부) buf len=88"  code = -1
+221216 113105-026 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113205-744 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113221-238 I 3085 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 113221-240 I 3085 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 113221-240 I 3085 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 113221-240 I 3085 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 113221-240 D 3085 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 113221-270 D 3085 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 113221-304 D 3085 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 113221-339 D 3085 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 113221-483 D 3143 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 113221-484 D 3144 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 113221-486 D 3145 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 113221-541 W 3145 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 113221-541 D 3145 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 113221-542 D 3085 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 113221-544 D 3144 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 113221-544 D 3085 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 113221-566 D 3085 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 113221-591 I 3085 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 113227-042 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113227-111 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113227-111 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113227-112 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113228-271 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113228-274 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113228-275 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113228-275 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113230-036 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113230-101 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113230-102 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113230-102 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113232-199 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113234-107 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113234-160 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113234-160 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113234-160 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-739 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-801 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-801 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-801 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-801 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-801 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-801 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-801 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-802 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-802 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-802 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-802 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-802 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-802 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-908 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113239-973 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-146 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-207 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-208 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-455 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-517 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-518 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-518 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-763 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-830 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-830 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-830 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-830 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-830 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-830 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-830 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-909 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113240-971 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113241-275 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113241-341 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113242-094 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113242-148 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113242-148 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113242-148 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113243-323 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113243-337 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113243-337 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113243-337 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113245-063 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113245-127 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113245-128 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113245-128 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113249-057 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113249-120 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113249-120 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113249-120 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113252-231 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113252-435 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113252-488 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113256-740 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113256-809 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113257-145 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113257-208 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113257-208 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113257-208 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113257-760 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113257-816 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113258-068 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113258-125 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113258-126 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113258-126 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113258-686 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113258-747 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113259-857 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113259-913 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113259-913 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113259-914 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113300-061 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113300-115 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113300-115 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113300-116 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113304-108 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113304-165 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113304-166 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113304-166 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113306-668 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113312-197 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113312-262 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113312-263 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113312-263 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113312-263 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113313-119 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113313-179 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113313-180 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113313-180 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113315-270 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113315-333 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113315-334 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113315-334 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113316-908 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113316-962 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113318-444 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113319-263 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113319-320 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113319-320 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113319-320 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113319-843 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113319-916 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113319-974 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113320-492 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113320-553 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113321-368 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113327-147 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113327-217 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113327-218 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113327-218 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113328-171 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113328-228 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113328-228 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113328-228 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113330-322 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113330-379 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113330-380 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113330-380 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113332-268 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113334-110 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113334-175 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113334-175 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113334-176 W 2929 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113335-036 W 2895 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 113335-036 D 2895 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 113335-037 W 2929 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 113335-037 D 2928 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 113335-037 D 2929 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 113335-066 D 2895 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 113335-097 D 2895 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 113335-123 W 2895 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 113335-123 I 2895 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 113519-777 I 3309 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 113519-777 I 3309 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 113519-777 I 3309 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 113519-777 I 3309 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 113519-778 D 3309 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 113519-810 D 3309 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 113519-843 D 3309 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 113519-875 D 3309 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 113520-039 D 3340 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 113520-039 D 3341 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 113520-039 D 3342 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 113520-286 D 3340 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 113538-388 W 3309 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 113538-388 D 3309 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 113538-389 D 3341 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 113538-389 W 3342 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 113538-389 D 3342 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 113538-438 D 3309 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 113538-468 D 3309 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 113538-494 W 3309 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 113538-498 I 3309 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 113559-339 I 3479 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 113559-340 I 3479 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 113559-340 I 3479 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 113559-340 I 3479 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 113559-340 D 3479 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 113559-370 D 3479 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 113559-404 D 3479 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 113559-432 D 3479 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 113559-587 D 3511 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 113559-587 D 3510 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 113559-588 D 3512 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 113559-824 D 3510 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 113609-426 W 3512 [grawipsocketwrite.cpp:90] virtual GPacket::Result GRawIpSocketWrite::write Err : "sendto return -1(허가 거부) buf len=88"  code = -1
+221216 113609-426 W 3512 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113710-354 W 3512 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113734-687 W 3512 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113734-748 W 3512 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113811-409 W 3512 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113819-408 W 3512 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113820-928 W 3512 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113822-362 W 3512 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 113832-315 W 3479 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 113832-315 D 3479 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 113832-316 W 3512 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 113832-316 D 3512 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 113832-316 D 3511 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 113832-346 D 3479 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 113832-367 D 3479 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 113832-403 W 3479 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 113832-403 I 3479 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 113846-504 I 3728 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 113846-505 I 3728 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 113846-505 I 3728 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 113846-506 I 3728 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 113846-506 D 3728 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 113846-534 D 3728 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 113846-567 D 3728 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 113846-596 D 3728 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 113846-731 D 3758 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 113846-732 D 3759 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 113846-733 D 3760 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 113846-979 D 3758 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 113848-798 W 3728 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 113848-798 D 3728 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 113848-799 D 3759 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 113848-799 W 3760 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 113848-799 D 3760 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 113848-838 D 3728 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 113848-867 D 3728 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 113848-897 W 3728 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 113848-897 I 3728 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 113919-808 I 3928 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 113919-809 I 3928 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 113919-809 I 3928 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 113919-809 I 3928 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 113919-809 D 3928 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 113919-840 D 3928 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 113919-865 D 3928 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 113919-896 D 3928 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 113920-008 D 3958 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 113920-008 D 3959 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 113920-008 D 3960 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 113920-273 D 3958 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 114013-367 W 3960 [grawipsocketwrite.cpp:90] virtual GPacket::Result GRawIpSocketWrite::write Err : "sendto return -1(허가 거부) buf len=88"  code = -1
+221216 114013-368 W 3960 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114112-951 W 3928 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 114112-951 D 3928 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 114112-951 D 3959 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 114112-952 W 3960 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 114112-953 D 3960 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 114112-983 D 3928 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 114113-009 D 3928 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 114113-046 W 3928 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 114113-046 I 3928 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 114150-157 I 4146 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 114150-158 I 4146 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 114150-158 I 4146 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 114150-158 I 4146 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 114150-158 D 4146 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 114150-190 D 4146 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 114150-222 D 4146 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 114150-255 D 4146 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 114150-375 D 4176 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 114150-375 D 4177 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 114150-377 D 4178 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 114150-633 D 4176 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 114215-324 W 4178 [grawipsocketwrite.cpp:90] virtual GPacket::Result GRawIpSocketWrite::write Err : "sendto return -1(허가 거부) buf len=88"  code = -1
+221216 114215-325 W 4178 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114242-051 W 4178 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114242-111 W 4178 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114242-768 W 4178 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114242-829 W 4178 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114243-509 W 4178 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114243-509 W 4178 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114316-106 W 4178 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114320-347 W 4178 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114321-882 W 4178 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114323-419 W 4178 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114417-280 W 4178 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114518-104 W 4178 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114542-115 W 4146 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 114542-115 D 4146 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 114542-116 D 4177 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 114542-116 W 4178 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 114542-116 D 4178 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 114542-158 D 4146 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 114542-178 D 4146 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 114542-203 W 4146 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 114542-204 I 4146 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221216 114619-696 I 4698 [gapp.cpp:47] GApp::GApp ====================================================================
+221216 114619-696 I 4698 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 15 2022 22:49:24)
+221216 114619-697 I 4698 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221216 114619-697 I 4698 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221216 114619-698 D 4698 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route add -net 175.193.34.28 gw 192.168.184.2 netmask 255.255.255.255 dev ens33"
+221216 114619-729 D 4698 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 114619-762 D 4698 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ip link set dum0 addr 00:0c:29:39:f3:7f"
+221216 114619-797 D 4698 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 up"
+221216 114619-935 D 4745 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo dhclient -i dum0"
+221216 114619-935 D 4746 [vpnclient.cpp:104] virtual void VpnClient::CaptureAndSendThread::run beg
+221216 114619-935 D 4747 [vpnclient.cpp:169] virtual void VpnClient::ReadAndReplyThread::run beg
+221216 114620-184 D 4745 [vpnclient.cpp:85] static void VpnClient::runCommand "echo dhclient finished"
+221216 114720-062 W 4747 [grawipsocketwrite.cpp:90] virtual GPacket::Result GRawIpSocketWrite::write Err : "sendto return -1(허가 거부) buf len=88"  code = -1
+221216 114720-063 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114821-193 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114821-334 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114822-907 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114824-367 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114835-631 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114835-694 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114922-019 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114931-947 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 114931-958 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115022-944 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115123-839 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115224-798 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115244-253 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115244-308 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115245-072 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115245-132 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115245-724 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115245-790 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115322-344 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115323-880 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115325-417 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115325-736 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115426-719 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115527-678 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115628-622 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115729-634 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115823-392 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115824-824 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115826-464 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115830-765 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 115931-487 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120032-432 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120131-496 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120131-558 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120133-363 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120234-369 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120246-553 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120246-614 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120247-270 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120247-332 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120247-986 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120248-038 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120324-442 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120325-811 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120327-512 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120335-236 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120335-499 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120335-560 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120436-220 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120537-146 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120638-278 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120738-998 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120810-442 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120810-508 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120811-253 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120811-318 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120811-971 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120812-034 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120812-172 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120812-236 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120812-994 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120813-048 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120813-710 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120813-775 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120819-650 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120819-673 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120820-226 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120820-284 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120821-083 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120821-143 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120821-206 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120821-206 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120822-004 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120822-059 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120822-722 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120822-734 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120825-299 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120826-818 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120828-310 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120839-924 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120928-480 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120928-547 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120929-280 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120929-299 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120930-099 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120930-165 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 120940-850 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121041-783 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121128-499 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121128-509 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121129-289 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121129-353 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121130-003 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121130-056 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121142-805 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121243-703 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121248-749 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121248-810 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121249-568 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121249-635 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121250-257 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121250-318 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121326-329 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121327-793 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121328-454 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121328-509 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121329-400 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121344-635 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121445-603 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121546-612 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121647-538 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121748-446 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121827-375 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121828-790 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121830-295 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121835-430 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121835-512 W 4747 [vpnclient.cpp:224] virtual void VpnClient::ReadAndReplyThread::run "pcapDevice_.write(&packet) return -1"
+221216 121848-421 W 4698 [vpnclient-test.cpp:49] void signalHandler "signal occured 2"
+221216 121848-421 D 4698 [vpnclient.cpp:67] virtual bool VpnClient::doClose 
+221216 121848-422 D 4746 [vpnclient.cpp:165] virtual void VpnClient::CaptureAndSendThread::run end
+221216 121848-422 W 4747 [tlssession.cpp:16] virtual int TlsSession::read SSL_read return 0
+221216 121848-423 D 4747 [vpnclient.cpp:228] virtual void VpnClient::ReadAndReplyThread::run end
+221216 121848-458 D 4698 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo route del -net 175.193.34.28 netmask 255.255.255.255"
+221216 121848-483 D 4698 [vpnclient.cpp:85] static void VpnClient::runCommand "sudo ifconfig dum0 down"
+221216 121848-507 W 4698 [vpnclient-test.cpp:51] void signalHandler vpnclient terminated successfully
+221216 121848-507 I 4698 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully

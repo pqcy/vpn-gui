@@ -1,0 +1,15 @@
+221213 182525-468 I 5545 [gapp.cpp:47] GApp::GApp ====================================================================
+221213 182525-469 I 5545 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 12 2022 21:31:14)
+221213 182525-469 I 5545 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221213 182525-469 I 5545 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221213 182525-469 I 5545 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221213 182549-136 I 5578 [gapp.cpp:47] GApp::GApp ====================================================================
+221213 182549-136 I 5578 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 12 2022 21:31:14)
+221213 182549-137 I 5578 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221213 182549-137 I 5578 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221213 182549-137 I 5578 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
+221213 182550-950 I 5607 [gapp.cpp:47] GApp::GApp ====================================================================
+221213 182550-951 I 5607 [gapp.cpp:48] GApp::GApp "vpnclient-test" G Libary v5.0.0.100 Release Build(Dec 12 2022 21:31:14)
+221213 182550-951 I 5607 [gapp.cpp:49] GApp::GApp Copyright (c) Gilbert Lee All rights reserved
+221213 182550-951 I 5607 [gapp.cpp:50] GApp::GApp libpcap version 1.10.1 (with TPACKET_V3)
+221213 182550-951 I 5607 [gapp.cpp:81] virtual GApp::~GApp "vpnclient-test" terminated successfully
