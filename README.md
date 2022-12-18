@@ -30,6 +30,7 @@ pqcvpn 폴더에서
 test1.pro 파일 실행  
 test.cpp 에서 경로 및 인자 주기   
 Qt Creator 실행시 Run as root user 체크   
+
 ------------------------------
 test.cpp 에서 경로 및 인자 주기   
 pqcvpn2 에서 .qml 파일 switch 블록안 의 onclicked 블록 안의 back.~ 주석을 지우면 gui만으로도 vpn이 실행된다.(참고로 주석을 지우지 않고 실행해도 ui는 잘 작동)   
