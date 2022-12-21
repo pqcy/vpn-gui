@@ -1,3 +1,5 @@
+# 공부용
+
 # Editor - Qt Design Studio in Windows 11
 click on file that < project name >.qmlproject  
 
